@@ -5,9 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+            display: flexbox;
+            justify-content: center;
+            flex-direction: column;
+            width: 20vw;
+            font-size: 1em;
+            padding: 20px;
+            background-color: silver;
+        }
+
+        h1{
+            display: flex;
+            justify-content: start;
+        }
+
+        button{
+            display: flex;
+            background-color: silver;
+            padding: 5px;
+            
+        }
+    </style>
 </head>
 <body>
     <form>
+        <div class="container">
         <h1>Clinical Care</h1>
         <div>
             <label for="userName" name="userName">Username:</label>
@@ -16,6 +40,7 @@
             <input type="password" name="passWord"><br>
             <button type="submit"><a href="patience.html">Submit</a></button>
         </div>
+    </div>
     </form>
 </body>
 </html>
